@@ -1,0 +1,44 @@
+body {
+    background: hsla(21, 43%, 65%, 1);
+    background: linear-gradient(90deg, hsla(21, 43%, 65%, 1) 0%, hsla(22, 43%, 88%, 1) 29%, hsla(26, 100%, 95%, 1) 65%, hsla(48, 14%, 93%, 1) 82%, hsla(24, 43%, 76%, 1) 100%, hsla(60, 12%, 60%, 1) 100%, hsla(60, 12%, 68%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(21, 43%, 65%, 1) 0%, hsla(22, 43%, 88%, 1) 29%, hsla(26, 100%, 95%, 1) 65%, hsla(48, 14%, 93%, 1) 82%, hsla(24, 43%, 76%, 1) 100%, hsla(60, 12%, 60%, 1) 100%, hsla(60, 12%, 68%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(21, 43%, 65%, 1) 0%, hsla(22, 43%, 88%, 1) 29%, hsla(26, 100%, 95%, 1) 65%, hsla(48, 14%, 93%, 1) 82%, hsla(24, 43%, 76%, 1) 100%, hsla(60, 12%, 60%, 1) 100%, hsla(60, 12%, 68%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#cb997e", endColorstr="#eddcd2", GradientType=1 );
+    font-family: Roboto, sans-serif;
+    color: #3d495c;
+    }
+h1{
+    font-size: 3em;
+    font-weight: 300;
+    }
+h2 {
+    font-family: El Messiri, sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    }
+.list_style1 {
+    font-size: 1.05em;
+    font-weight: bold;
+    }
+h3 {
+    font-size: 1.6 em;
+    font-weight: 400;
+    font-family: Poppins;
+    }
+strong{
+    color:darkcyan;
+    }
+p, li{
+    line-height:7mm;
+    }
+.logo_elisa{
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 430px;
+    max-width: 400px;
+}
+div:first-of-type{
+    margin: -30px;
+    background-color: white;
+
+}

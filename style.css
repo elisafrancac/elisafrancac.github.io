@@ -12,9 +12,9 @@ h1{
     font-weight: 300;
     }
 h2 {
-    font-family: El Messiri, sans-serif;
+    font-family: Montsserrat, sans-serif;
     font-size: 2em;
-    font-weight: bolder;
+    font-weight: 100;
     }
 .list_style1 {
     font-size: 1.05em;
@@ -33,9 +33,10 @@ p, li{
     }
 .logo_elisa{
     position: absolute;
-    margin-top: -12px;
-    margin-left: 430px;
     max-width: 400px;
+    top: 28%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
     }
 div:first-of-type{
     margin: -30px;
@@ -61,4 +62,19 @@ h2.Nome{
     padding-left: 550px;
     max-width: 400px;
     }
-    
+div ol li{
+    font-family: Montserrat, sans-serif;
+    font-weight: 550;
+    display: inline;
+    margin: 35px;
+    margin-left: 100px;
+    text-align: center;
+}
+div ol li:hover{
+    background-color:rgb(203, 153, 126);
+    padding: 3mm;
+}
+div ol li:active{
+    font-weight: bolder;
+    color: white;
+}

@@ -34,7 +34,7 @@ p, li{
 .logo_elisa{
     position: absolute;
     max-width: 400px;
-    top: 28%; 
+    top: 23%; 
     left: 50%;
     transform: translate(-50%, -50%);
     }

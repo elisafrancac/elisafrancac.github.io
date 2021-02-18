@@ -88,6 +88,7 @@ div:nth-of-type(2){
     background-color: rgb(203, 153, 126);
     height: 50px;
     margin: -20px;
+    margin-right: -35px;
     padding-top: 2px;
     padding-bottom: 3px;
 }

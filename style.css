@@ -44,6 +44,7 @@ p, li{
 div:first-of-type{
     margin: -30px;
     background-color: white;    
+    height: 400px;
     }
 h2.Nome{
     text-align:center;

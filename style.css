@@ -91,15 +91,19 @@ div:nth-of-type(2){
     padding-top: 2px;
     padding-bottom: 3px;
 }
+div:nth-of-type(4){
+    margin-left: 40px;
+}
 div:last-of-type{
-    display: inline;
-    padding-left: 30px;
+    margin-left: 40px;
+    display: inline-block;
 }
 #logo_link {
     width: 80px;
-    padding: 40px;
+    padding-bottom: 40px;
 }
 #logo_git {
     width: 100px;
-    padding: 35px;
+    padding-left: 20px;
+    padding-bottom: 35px;
 }

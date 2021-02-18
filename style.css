@@ -7,6 +7,9 @@ body {
     font-family: Roboto, sans-serif;
     color: #3d495c;
     }
+a {
+    color:#3d495c;
+}
 h1{
     font-size: 3em;
     font-weight: 300;
@@ -70,11 +73,20 @@ div ol li{
     margin-left: 100px;
     text-align: center;
 }
-div ol li:hover{
-    background-color:rgb(203, 153, 126);
-    padding: 3mm;
+div ol li a{
+    text-decoration: none;
+    }
+div ol li a:hover{
+    color: white;
 }
-div ol li:active{
+div ol li a:active{
     font-weight: bolder;
     color: white;
+}
+div:nth-of-type(2){
+    background-color: rgb(203, 153, 126);
+    height: 50px;
+    margin: -20px;
+    padding-top: 2px;
+    padding-bottom: 3px;
 }
